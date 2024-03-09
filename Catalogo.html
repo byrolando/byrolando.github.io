@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catalogo</title>
+</head>
+
+<style>
+    *{box-sizing: border-box;margin: 0; padding: 0;}
+
+    
+    .contacto{width: 100%; height: 100px; background-color: rgb(62, 114, 97);}
+
+    /* productos  */
+    .contenedor{display: flex ;width: 100% ;height: 100%;background-color: rgb(51, 45, 107); overflow: hidden; flex-wrap: wrap; justify-content: space-between;}
+
+    .producto{width: 180px; height: 260px; margin: 10px auto;overflow: auto; text-align: center;}
+    /* articulos */
+    .contenedor > .producto > img{height: 175px;width: 100%;}
+    .contenedor > .producto > p{font-size: 20px;color: white;font-weight: 800; background-color: rgb(62, 114, 97);box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.432);}
+    .contenedor > .producto > a{color: white;}
+
+    /*whatsapp*/
+    .contacto{display: flex;align-items: center;justify-content: center;}
+    .contacto > a{font-size: 60px;text-decoration: none;}
+
+    
+    
+
+</style>
+
+<body>
+    <div class="contacto">
+        <!-- https://api.whatsapp.com/send?phone=923786089&text=Hola,tengo una consulta. -->
+        <a href="" target="_blank" class="what_apk">Whatsapp</a>
+    </div>
+
+    <header class="contenedor">
+        <div class="producto">
+            <img src="1.jpeg" alt="">
+            <p>P 6 pro</p>
+            <p>35 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="2.jpeg" alt="">
+            <p>audifono cristal 31</p>
+            <p>40 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="3.jpeg" alt="">
+            <p>Redd</p>
+            <p>35 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="4.jpeg" alt="">
+            <p>M25</p>
+            <p>45 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="5.jpeg" alt="">
+            <p>Alenur Spro</p>
+            <p>60 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="6.jpeg" alt="">
+            <p>Cargador tipo C</p>
+            <p>20 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="7.jpeg" alt="">
+            <p>Tila led 5m</p>
+            <p>35 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="8.jpeg" alt="">
+            <p>Machenike K500</p>
+            <p>140 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="9.jpeg" alt="">
+            <p>Sd 64 Gb</p>
+            <p>40 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="10.jpeg" alt="">
+            <p>Webcam 720p</p>
+            <p>25 $</p>
+            <a href="">video</a>
+        </div>
+        <div class="producto">
+            <img src="11.jpeg" alt="">
+            <p>Ssd 480 Gb</p>
+            <p>140 $</p>
+            <a href="">video</a>
+        </div>
+        
+
+    </header>
+</body>
+</html>
